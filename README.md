@@ -10,14 +10,14 @@ Struts2最强大的特性之一，也可以说是struts2的核心，就是拦截
 
 ## 作用及组成
 拦截器可以执行身份验证 / 授权 / 记录或跟踪请求，然后将请求传递给相应的处理程序。以下是此类设计模式的实体。
-Filter - 在请求处理程序执行请求之前或之后执行特定任务的过滤器。
-Filter Chain - 过滤链带有多个过滤器，有助于在目标上按照指定的顺序来执行它们。
-Target - 目标对象是请求处理程序
-Filter Manager - 过滤器管理器管理过滤器和过滤器链。
-Client - 客户端是向 Target 对象发送请求的对象
+- Filter - 在请求处理程序执行请求之前或之后执行特定任务的过滤器。
+- Filter Chain - 过滤链带有多个过滤器，有助于在目标上按照指定的顺序来执行它们。
+- Target - 目标对象是请求处理程序
+- Filter Manager - 过滤器管理器管理过滤器和过滤器链。
+- Client - 客户端是向 Target 对象发送请求的对象
 [2]
     
 
 参考：
-[1] [CSDN](https://blog.csdn.net/ooiuy450/article/details/70054613)
-[2] [知乎](https://zhuanlan.zhihu.com/p/81137017)
+- [1] [CSDN](https://blog.csdn.net/ooiuy450/article/details/70054613)
+- [2] [知乎](https://zhuanlan.zhihu.com/p/81137017)
